@@ -12,7 +12,16 @@ SHOW CREATE TABLE table_name;                                                   
 DESCRIBE table_name;                                                                  shows table
 SELECT database();                                                                    see what database we are currently interacting with
 SELECT col-1, col-2, ...... From table_name;                                          see what table we are currently interacting with if it's multiple value you have to add AND
-WHERE col-1 = 'val-1' , col-2 ='val-2'
+    WHERE col-1 = 'val-1' AND col-2 ='val-2'
 INSERT INTO table_name (col-1 ,col-2,......)
-VALUES (val1, val2.......)
+    VALUES (val1, val2.......)
+UPDATE table_name
+    SET col-1 = val-1
+    WHERE id = id_1;
+DELETE FROM table_name
+    WHERE id = id_1;
+
+     source albums_seeder.sql;  if yu want the script run into mysql use this method.
+
+
 
