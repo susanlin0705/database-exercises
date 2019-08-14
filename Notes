@@ -22,6 +22,8 @@ DELETE FROM table_name
     WHERE id = id_1;
 
      source albums_seeder.sql;  if yu want the script run into mysql use this method.
+     spaces count when you type in the script.
+     when working with select value of numbers you can type like '1990' or 1990.
 
 
 
