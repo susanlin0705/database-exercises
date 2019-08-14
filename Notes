@@ -11,4 +11,8 @@ SHOW CREATE DATABASE database_name;                                             
 SHOW CREATE TABLE table_name;                                                         shows structure
 DESCRIBE table_name;                                                                  shows table
 SELECT database();                                                                    see what database we are currently interacting with
+SELECT col-1, col-2, ...... From table_name;                                          see what table we are currently interacting with if it's multiple value you have to add AND
+WHERE col-1 = 'val-1' , col-2 ='val-2'
+INSERT INTO table_name (col-1 ,col-2,......)
+VALUES (val1, val2.......)
 
