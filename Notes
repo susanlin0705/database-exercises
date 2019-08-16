@@ -26,4 +26,12 @@ DELETE FROM table_name
      when working with select value of numbers you can type like '1990' or 1990.
 
 
+----------- index --------- 結構是否需要...
+
+user
+
+PK  UNI       min-char(10)   UNI
+id  username  password       email
+
+
 
